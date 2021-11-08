@@ -7,6 +7,7 @@ ___
 ```shell
 git clone https://github.com/pdphilip/tailwind-vue-boiler.git MY_PROJECT
 cd MY_PROJECT
+rm -rf .git
 npm install
 ```
 
