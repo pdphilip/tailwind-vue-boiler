@@ -1,0 +1,9 @@
+.heading {
+    @apply text-lg leading-6 font-medium text-gray-900;
+}
+
+.subheading {
+    @apply mt-1 max-w-2xl text-sm text-gray-500;
+}
+
+//Or do H1, H2 etc

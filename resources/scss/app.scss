@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+//Custom SCSS Components
+
+@import "./components/typography";
+@import "./components/cards";
+@import "./components/buttons";
+@import "./components/forms";
+@import "./components/elements";
+
+[v-cloak] {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-100;
+}

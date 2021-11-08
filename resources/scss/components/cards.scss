@@ -1,0 +1,27 @@
+.card {
+    @apply bg-white shadow sm:rounded-lg mb-4;
+
+}
+
+.card-content {
+    @apply px-4 py-5 sm:p-6;
+}
+
+
+.card-header {
+    @apply border-b card-content;
+
+    & h3 {
+        @apply heading;
+    }
+
+    & h4 {
+        @apply subheading;
+    }
+}
+
+
+.card-footer {
+    @apply border-t card-content;
+
+}
