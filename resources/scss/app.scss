@@ -21,3 +21,8 @@ html {
 body {
   @apply bg-gray-100;
 }
+
+.my-background{
+  @apply bg-cover;
+  background-image: url('../img/logo.png');
+}

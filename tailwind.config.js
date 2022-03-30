@@ -14,10 +14,10 @@ module.exports = {
         current: 'currentColor',
         white: colors.white,
         gray: colors.blueGray,
-        primary: colors.teal,
-        secondary: colors.sky,
+        primary: colors.indigo,
+        secondary: colors.fuchsia,
         success: colors.green,
-        info: colors.purple,
+        info: colors.sky,
         warning: colors.yellow,
         danger: colors.red,
       }
